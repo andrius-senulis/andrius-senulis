@@ -67,7 +67,12 @@ effort that roughly halved test time.
 </tr>
 </table>
 
-### Open source
+### Code
+
+🔀 **[workflow-engine-challenge](https://github.com/andrius-senulis/workflow-engine-challenge)**:
+a workflow engine where links between a workflow and its tasks cascade state changes. My
+solution to a take-home challenge, in Python, FastAPI and asyncio, with tests and documented
+design trade-offs.
 
 📦 **[airflow-provider-datarobot](https://github.com/datarobot/airflow-provider-datarobot)**:
 the Apache Airflow provider for DataRobot, which I built and published on
