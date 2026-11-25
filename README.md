@@ -4,16 +4,12 @@
 
 **Senior backend engineer · Python and Go · Copenhagen 🇩🇰**
 
-I build the backend behind AI and data products: APIs, pipelines, and the
-infrastructure that keeps models serving in production.
+I build backend services, data pipelines and LLM features for AI and data
+products, and keep them healthy in production.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-andrius--senulis-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andrius-senulis/)
 
 </div>
-
-> [!TIP]
-> **Open to new roles.** Senior AI engineering on LLM products, or backend work with AI features.
-> Based in Copenhagen, EU citizen, available now.
 
 ---
 
@@ -31,15 +27,15 @@ bring them to the people affected before the code exists.
 **🧠 AI and LLMs**
 
 Production LLM features that generate scenarios and reports, on Pydantic AI and AWS Bedrock, with LLM-as-a-Judge evals.
-Automated Codex PR review in GitHub Actions, and Claude Code agents with specialised
-sub-agents for the team's daily work.
+Automated Codex PR review in GitHub Actions, and agent instruction files scoped per
+code area.
 
 </td>
 <td width="50%" valign="top">
 
 **⚙️ Model serving at scale**
 
-Six years at DataRobot on enterprise MLOps. Tech lead on Serverless Predictions:
+Six years at DataRobot on enterprise MLOps. Tech lead on serverless model serving:
 scale-to-zero for idle inference pods, then the GA rollout across multi-tenant SaaS,
 single-tenant clouds (EKS, GKE, AKS) and on-prem OpenShift.
 
@@ -86,17 +82,17 @@ on using it for MLOps workflows.
 | --- | --- |
 | **Languages** | ![Python](https://img.shields.io/badge/Python-3776ab?style=flat&logo=python&logoColor=white) ![Go](https://img.shields.io/badge/Go-00add8?style=flat&logo=go&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4b5563?style=flat) |
 | **Backend** | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white) ![Pydantic](https://img.shields.io/badge/Pydantic-e92063?style=flat&logo=pydantic&logoColor=white) ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-d71f00?style=flat&logo=sqlalchemy&logoColor=white) ![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white) ![gRPC](https://img.shields.io/badge/gRPC-244c5a?style=flat) |
-| **Data** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169e1?style=flat&logo=postgresql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47a248?style=flat&logo=mongodb&logoColor=white) ![Airflow](https://img.shields.io/badge/Apache%20Airflow-017cee?style=flat&logo=apacheairflow&logoColor=white) ![PySpark](https://img.shields.io/badge/PySpark-e25a1c?style=flat&logo=apachespark&logoColor=white) |
+| **Data** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169e1?style=flat&logo=postgresql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47a248?style=flat&logo=mongodb&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-dc382d?style=flat&logo=redis&logoColor=white) ![Airflow](https://img.shields.io/badge/Apache%20Airflow-017cee?style=flat&logo=apacheairflow&logoColor=white) ![PySpark](https://img.shields.io/badge/PySpark-e25a1c?style=flat&logo=apachespark&logoColor=white) |
 | **Infra** | ![Kubernetes](https://img.shields.io/badge/Kubernetes-326ce5?style=flat&logo=kubernetes&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ed?style=flat&logo=docker&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-232f3e?style=flat) ![Terraform](https://img.shields.io/badge/Terraform-7b42bc?style=flat&logo=terraform&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088ff?style=flat&logo=githubactions&logoColor=white) ![Grafana](https://img.shields.io/badge/Grafana-f46800?style=flat&logo=grafana&logoColor=white) |
-| **AI** | ![Pydantic AI](https://img.shields.io/badge/Pydantic%20AI-e92063?style=flat&logo=pydantic&logoColor=white) ![Claude Code](https://img.shields.io/badge/Claude%20Code-d97757?style=flat&logo=claude&logoColor=white) ![Codex](https://img.shields.io/badge/Codex-412991?style=flat) ![Copilot](https://img.shields.io/badge/GitHub%20Copilot-000000?style=flat&logo=githubcopilot&logoColor=white) |
+| **AI** | ![Pydantic AI](https://img.shields.io/badge/Pydantic%20AI-e92063?style=flat&logo=pydantic&logoColor=white) ![AWS Bedrock](https://img.shields.io/badge/AWS%20Bedrock-01a88d?style=flat) ![Claude Code](https://img.shields.io/badge/Claude%20Code-d97757?style=flat&logo=claude&logoColor=white) ![Codex](https://img.shields.io/badge/Codex-412991?style=flat) ![Copilot](https://img.shields.io/badge/GitHub%20Copilot-000000?style=flat&logo=githubcopilot&logoColor=white) |
 
 ### The road so far
 
 | When | Where | What I did |
 | --- | --- | --- |
 | 2026 | **Archon Tech**<br><sub>Senior Software Engineer</sub> | Backend services and data ingestion for a high-volume risk-analytics platform, in Go and Python.<br>• Project lead for the Time-Series Data API, from the PRD through an approved ADR to one shared query contract across endpoints<br>• Owned a partner integration end to end: a scheduled GraphQL indexer, append-only versioned tables for auditability, alerts, runbooks and the UI<br>• Built automated Codex PR review in GitHub Actions and rebuilt the Go integration-test harness, part of a CI effort that roughly halved test time |
-| 2025–26 | **Fortiv.io**<br><sub>Senior Software Engineer</sub> | Early engineer at a pre-seed B2B SaaS startup building a Business Continuity Management System.<br>• Extended the LLM features that generate scenarios and reports (Pydantic AI on AWS Bedrock), adding evals and introducing LLM-as-a-Judge scoring<br>• Built multi-channel alerts (email, SMS, voice), Microsoft SSO for enterprise customers, rate limiting and PDF exports<br>• Built an orchestrator Claude Code agent with specialised sub-agents for feature work |
-| 2019–25 | **DataRobot**<br><sub>Software Engineer to Senior</sub> | Six years on an enterprise AI platform, promoted twice.<br>• Technical lead for three Serverless Predictions projects, including scale-to-zero for idle inference pods, then led the GA rollout to every deployment type, from multi-tenant SaaS to on-prem OpenShift<br>• Designed and built the ML pipelines integration between Apache Airflow and DataRobot, with a Go gRPC service and specs signed off by engineering leadership<br>• Built the open-source Airflow provider and a PySpark library for Palantir Foundry<br>• Worked on Covid Simulator data pipelines for the US government's pandemic response, part of a team-built warehouse that cut cloud costs by $500k a year |
+| 2025–26 | **Fortiv.io**<br><sub>Senior Software Engineer</sub> | Early backend engineer at a pre-seed B2B SaaS startup building a Business Continuity Management System.<br>• Extended the LLM features that generate scenarios and reports (Pydantic AI on AWS Bedrock), adding evals and introducing LLM-as-a-Judge scoring<br>• Built multi-channel alerts (email, SMS, voice), Microsoft SSO for enterprise customers, rate limiting and PDF exports |
+| 2019–25 | **DataRobot**<br><sub>Software Engineer to Senior</sub> | Six years on an enterprise AI platform, promoted twice.<br>• Technical lead for three serverless model serving projects, including scale-to-zero for idle inference pods, then led the GA rollout to every deployment type, from multi-tenant SaaS to on-prem OpenShift<br>• Designed and built the ML pipelines integration between Apache Airflow and DataRobot, with a Go gRPC service and specs signed off by engineering leadership<br>• Built the open-source Airflow provider and a PySpark library for Palantir Foundry<br>• Worked on Covid Simulator data pipelines for the US government's pandemic response, part of a team-built warehouse that cut cloud costs by $500k a year |
 | 2017–19 | **CSIS Security Group**<br><sub>Python Developer</sub> | Built features for customer-facing threat intelligence portals and internal tools in Python, Flask and PostgreSQL, with automated tests and daily code review. |
 | 2014–17 | **Isynet**<br><sub>Web / System Developer</sub> | Built Django apps with PDF reports for drug market research, kept the data scrapers running, and mentored new engineers. |
 | 2013–14 | **University of Copenhagen**<br><sub>IT Developer / Bioinformatician</sub> | Built a Python pipeline for miRNA and non-coding RNA expression profiling from next-generation sequencing data at the Forensic Medicine Institute. |
